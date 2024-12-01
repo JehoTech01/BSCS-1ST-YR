@@ -1,0 +1,30 @@
+import java.util.Scanner;
+package Jeho;
+
+public class Fibo1 {
+	public static void main (String[]args){
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Welcome to the Fibonaccie Sequence Calculator!");
+		
+		System.out.println("Enter the Desired lenght of the Fibonacci sequence: ");
+		
+		int lenght = scanner.nextInt();
+		
+		if (lenght <=0) {
+			System.out.println("PLease Enter a positive integer: ");
+			return;
+		}
+		
+		System.out.println("Calculating Fibonaccie sequence up to"+ lenght +"terms...");
+		
+		System.out.println("Fibonaccie Sequence:");
+		for (int i= 0; i < lenght;i++) {
+			System.out.print(i+"");
+			
+		}
+		
+	}
+	
+
+}

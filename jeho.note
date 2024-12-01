@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class DIEGO{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Define a threshold value
+        final int THRESHOLD = 100;
+
+        // Prompt user for input
+        System.out.print("Enter a number: ");
+        int userInput = scanner.nextInt();
+
+        // Compare the user input to the threshold
+        if (userInput > THRESHOLD) {
+            System.out.println("The entered value is higher than " + THRESHOLD);
+        } else if (userInput < THRESHOLD) {
+            System.out.println("The entered value is lower than " + THRESHOLD);
+        } else {
+            System.out.println("The entered value is equal to " + THRESHOLD);
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}
