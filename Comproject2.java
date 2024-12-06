@@ -78,7 +78,7 @@ public class Comproject2 {
         
         // Closing message
         JOptionPane.showMessageDialog(null, "Thank you for using the Fibonacci Sequence Calculator!");
-        System.out.println("Program execution completed. The Fibonacci sequence has been calculated and displayed.");
+        System.out.println("Program execution completed. The Fibonacci sequence has been calculated and displayed.\n" + fibonacciSequence);
 
         System.out.println("Thank You For Using Our Calculator!");
  
