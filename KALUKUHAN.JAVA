@@ -62,7 +62,7 @@ public class Comproject2 {
         JOptionPane.showMessageDialog(null,"Calculation complete. ");
         StringBuilder fibonacciSequence = new StringBuilder("The Fibonacci Sequence is: ");
 
-        JOptionPane.showMessageDialog(null, "Can I Court You?");
+        JOptionPane.showMessageDialog(null, "Can I Court You Again?");
 
         // Loop to display progressively larger dialogs with larger text
         int size = 1; // Initial multiplier for dialog size

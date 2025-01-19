@@ -8,7 +8,7 @@ public class Comprojectf {
         JOptionPane.showMessageDialog(null, "Welcome to the Fibonacci Sequence Calculator!");
 
 
-        while (true) { 
+        while (true) { // Infinite loop to keep asking the user for input
             
    
         int num1 = -1; // Initialize with a negative value to start the loop
@@ -19,7 +19,7 @@ public class Comprojectf {
                 // Prompt user for input
                 String input = JOptionPane.showInputDialog("Enter the desired length of the Fibonacci sequence: ");
 
-                                    // Check if the user wants to exit
+                    // Check if the user wants to exit
                     if (input == null || input.trim().equalsIgnoreCase("exit")) {
                         JOptionPane.showMessageDialog(null, "Thank you for using the Fibonacci Sequence Calculator!");
                         System.exit(0); // Exit the program
@@ -73,6 +73,7 @@ public class Comprojectf {
         System.out.println("Program execution completed. The Fibonacci sequence has been calculated and displayed.\n" + fibonacciSequence);
         System.out.println("Thank You For Using Our Calculator!");
     }
+        // Return to the input prompt automatically
 }
 
     // Recursive method to calculate Fibonacci number
@@ -91,5 +92,14 @@ public class Comprojectf {
         }
     }
 } 
-  
+/*Members:
+    Jehosue Biscarrra  
+    Shem Anniban
+    Diego Estacio
+
+
+    
+    NOT INCLUDED
+    MICHAEL LOPEZ
+*/
 
