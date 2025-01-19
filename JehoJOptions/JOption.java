@@ -46,6 +46,7 @@ public class JOption {
             }
 		System.out.println("Your sex is  "+ sex);
 		System.out.println("Your status is  "+ status);
+        
 		
 
     	

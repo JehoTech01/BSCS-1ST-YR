@@ -1,4 +1,4 @@
-/*public class ASTRERISK {
+public class ASTRERISK {
     public static void main(String[] args) {
         int term = 6;
         for (int i = 0; i < term; i++) { 
@@ -14,9 +14,9 @@
         }
     }
 }
-*/
 
-public class PrintingPatterns {
+
+/*public class PrintingPatterns {
 
     public static void main(String[] args) {
         pattern(5);
@@ -48,3 +48,4 @@ public class PrintingPatterns {
         }
     }
 }
+    */
